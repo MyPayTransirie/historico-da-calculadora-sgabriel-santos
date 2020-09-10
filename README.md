@@ -31,15 +31,15 @@ Abaixo segue alguns passos sugeridos para criar a aplicação:
 | Passo | Descrição  | Completou? |
 | ----- | ---------- | ---------  |
 |   1  | Botão Histórico                       | **sim/não** |
-|   2  | Tela Histórico                        |            |
-|   3  | Listener iniciar tela                 |            |
-|   4  | Salvar histórico string ";"           |            |
-|   5  | Enviar histórico com string           |            |
-|   6  | Exibir histórico na tela 2            |            |
-|   7  | Enviar histórico como JSON            |            |
-|   8  | Enviar histórico como `Array<String>` |            |
-|   9  | Salvar histórico como `Historico`     |            |
-|   10 | Enviar histórico com `Parcelable`    |            |
+|   2  | Tela Histórico                        |    sim     |
+|   3  | Listener iniciar tela                 |     sim    |
+|   4  | Salvar histórico string ";"           |    sim     |
+|   5  | Enviar histórico com string           |   sim      |
+|   6  | Exibir histórico na tela 2            |    sim     |
+|   7  | Enviar histórico como JSON            |       sim  |
+|   8  | Enviar histórico como `Array<String>` |     sim    |
+|   9  | Salvar histórico como `Historico`     |     sim    |
+|   10 | Enviar histórico com `Parcelable`    |       sim   |
 
 ----------
 ## Dificuldades
@@ -48,8 +48,6 @@ Explique de forma resumida as dificuldades que teve e como resolveu.
 
 > Escreva: "não tive dificuldades" se for o caso e apague o resto
 
-1. **Importar biblioteca X**
-   - Não consegui importar a biblioteca X por conta disso e daquilo.
-   - Resolvi fazendo X, Y e Z...
-2. **Avaliação de expressão**
-   - Resolvi implementar minha própria e por não conhecer Kotlin demorei bastante...
+1. **Fução eval**
+   - Na primeira tentativa, eu não consegui utilizar a função eval e por isso tentei implementar as minhas próprias funções
+   - Porém, no dia seguinte após revisar o link passado pelo professor Rodrigo, consegui utilizar normalmente
